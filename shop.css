@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+* {
+  margin: 0;
+  font-family: 'Open Sans';
+}
+
+.top-menu {
+  font-size: 2rem;
+}
+
+a.main-menu {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.bg-custom {
+  color: white;
+  background-color: #002651;
+}
+
+.mydiv {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.padding-0 {
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.img-style {
+  margin-left: -1px;
+  -webkit-box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.1);
+          box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  max-width: 100% !important;
+}
+
+.m-t-20 {
+  margin-top: 20px;
+}
+
+.bbb_background {
+  background-color: #E0E0E0 !important;
+}
+
+.banner-text {
+  text-shadow: 0 2px 4px #fff, 0 0 15px #fff, 0 0 18px #fff;
+}
+
+/** Cards **/
+.card {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: .25rem;
+}
+
+.d-block {
+  display: block i !important;
+}
+
+.overflow-hidden {
+  overflow: hidden !important;
+}
+
+img, figure {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+.card-body {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  padding: 1rem 1rem;
+}
+
+.product-meta {
+  -webkit-transition: color 0.25s ease-in-out;
+  transition: color 0.25s ease-in-out;
+  color: #7d879c;
+  text-decoration: none !important;
+}
+
+.product-title > a {
+  -webkit-transition: color 0.25s ease-in-out;
+  transition: color 0.25s ease-in-out;
+  color: #373f50;
+  text-decoration: none !important;
+}
+
+.text-accent {
+  color: #4e54c8 !important;
+}
+
+.star-rating {
+  display: inline-block;
+  white-space: nowrap;
+  line-height: 1;
+  vertical-align: middle;
+}
+
+.star-rating .star-rating-icon.active {
+  color: #fea569;
+}
+
+.product-card .card-body-hidden {
+  position: absolute;
+  left: 0;
+  top: 100%;
+  width: 100%;
+  margin-top: -1.25rem;
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+  border-radius: .4375rem;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  background-color: #fff;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1;
+}
+
+.card-body {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  padding: 1rem 1rem;
+}
+
+.btn > i {
+  margin-top: -.1875rem;
+  vertical-align: middle;
+}
+/*# sourceMappingURL=shop.css.map */
